@@ -15,4 +15,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<properties>
+  <sonar.projectKey>fred348_jenkins-sample</sonar.projectKey>
+  <sonar.organization>fred348</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>8d327b46f3a1a9c346a3ed9193b6d2e73aa41e15</sonar.login>
+</properties>
 </project>
