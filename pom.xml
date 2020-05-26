@@ -21,4 +21,19 @@
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   <sonar.login>8d327b46f3a1a9c346a3ed9193b6d2e73aa41e15</sonar.login>
 </properties>
+  <repositories>
+<repository>
+<id>maven-group</id> <url>http://35.187.84.181:8081/repository/maven-public/</url>
+</repository>
+</repositories>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://35.187.84.181:8081/repository/mavensnapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://35.187.84.181:8081/repository/mavenreleases/</url> 
+    </repository>
+  </distributionManagement> 
 </project>
